@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-community
+langchain-huggingface
+huggingface_hub
+python-dotenv
+pydantic
+requests
+httpx
+python-multipart

@@ -1,0 +1,90 @@
+Upload my project "AI Chat Agent" to GitHub in a clean and professional way.
+
+## Goal:
+
+Push only required files to GitHub without errors and without exposing any sensitive data.
+
+---
+
+## Steps:
+
+### 1. Remove unnecessary files:
+
+* backend/.env
+* backend/venv
+* frontend/node_modules
+* frontend/dist
+* all **pycache** folders
+
+---
+
+### 2. Create `.gitignore` in root:
+
+backend/venv/
+frontend/node_modules/
+.env
+dist/
+**pycache**/
+*.log
+prompt.txt
+prompt_two.txt
+
+---
+
+### 3. Create environment example file:
+
+File: backend/.env.example
+
+Content:
+HUGGINGFACEHUB_API_TOKEN=your_token_here
+
+---
+
+### 4. Ensure required files are present:
+
+* backend/app/
+* backend/requirements.txt
+* frontend/src/
+* frontend/package.json
+* frontend/vite.config.js
+* README.md
+
+---
+
+### 5. Initialize clean Git repository:
+
+rm -rf .git
+git init
+
+---
+
+### 6. Add and commit:
+
+git add .
+git commit -m "Initial clean project upload"
+
+---
+
+### 7. Connect to GitHub repository:
+
+git remote add origin [git@github.com](mailto:git@github.com):TaiyyabMakandar/ai-chat-agent.git
+
+---
+
+### 8. Push to GitHub:
+
+git branch -M main
+git push -f origin main
+
+---
+
+## Rules:
+
+* Do NOT upload `.env`
+* Do NOT upload node_modules or venv
+* Ensure no GitHub errors (like GH013)
+* Keep repository clean and professional
+
+---
+
+Execute all steps and confirm once the project is successfully uploaded.

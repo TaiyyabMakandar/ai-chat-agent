@@ -1,0 +1,12 @@
+backend/venv/
+frontend/node_modules/
+.env
+dist/
+__pycache__/
+*.log
+prompt.txt
+prompt_two.txt
+final_attempt_error.txt
+backend/test_hf_final.py
+backend/probe_models.py
+backend/test_router.py
